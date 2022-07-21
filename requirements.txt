@@ -1,4 +1,4 @@
-matplotlib==3.4.1
+matplotlib
 xgboost==1.6.1
 absl-py==1.1.0
 astunparse==1.6.3
@@ -27,7 +27,7 @@ google-pasta==0.2.0
 grpcio==1.47.0
 gunicorn==20.1.0
 h5py==3.7.0
-heroku==0.1.4
+heroku
 idna==3.3
 imbalanced-learn==0.9.0
 imblearn==0.0
