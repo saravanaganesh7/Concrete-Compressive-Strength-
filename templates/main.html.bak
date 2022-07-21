@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Concrete Compressive Strength Predictor</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+  <script src="https://kit.fontawesome.com/5f3f547070.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Website Title -->
+
+  <div class="container">
+    <h2 class='container-heading'><span class="heading_font">Concrete Compressive Strength Prediction</span></h2>
+    <div class='description'>
+      <p>A Machine Learning Web Application that predicits chances of student getting placed or not, Built with Flask and Deployed using Heroku.</p><br>
+        <p>(Note:This Application is 92% accurate)</p>
+    </div>
+  </div>	
+
+  <!-- Text Area -->
+  <div class="ml-container">
+    <form action="{{ url_for('predict')}}" method="POST"> 
+
+      
+
+		
+		<label for="a">Cement</label>
+        <input type="text" id="a" name="a" placeholder="-- kg in a m3 mixture --"><br>
+		
+	
+
+
+        <label for="b">Blast Furnace Slag</label>
+        <input type="text" id="b" name="b" placeholder="-- kg in a m3 mixture --"><br>
+		
+		<label for="c">Fly Ash</label>
+        <input type="text" id="c" name="c" placeholder="-- kg in a m3 mixture --"><br>
+		
+		
+        <label for="d">Water</label>
+        <input type="text" id="d" name="d" placeholder="-- kg in a m3 mixture --"><br>
+
+	
+		
+		
+		<label for="e">Superplasticizer</label>
+        <input type="text" id="e" name="e" placeholder="-- kg in a m3 mixture --"><br>
+		
+		<label for="f">Coarse Aggregate</label>
+        <input type="text" id="f" name="f" placeholder="-- kg in a m3 mixture --"><br>
+		
+		<label for="g">Fine Aggregate</label>
+        <input type="text" id="g" name="g" placeholder="-- kg in a m3 mixture --"><br>
+		
+		<label for="h">Age</label>
+        <input type="text" id="h" name="h" placeholder="-- Days --"><br>
+       
+		
+
+      
+
+      <input type="submit" class="my-cta-button" value="Predict">
+    </form>
+  </div>
+
+  <!-- Footer -->
+ <div class='footer'>
+    <div class="contact">
+      <a target="_blank" href="https://github.com"><i
+          class="fab fa-github fa-lg contact-icon"></i></a>
+      <a target="_blank" href="https://www.linkedin.com"><i
+          class="fab fa-linkedin fa-lg contact-icon"></i></a>
+    </div>
+    <p class='footer-description'>Made by Saravana.</p>
+  </div>
+
+</body>
+
+</html>
