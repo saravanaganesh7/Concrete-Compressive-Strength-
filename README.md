@@ -16,6 +16,7 @@ on complete end-to-end machine learning project.
 
 To View the Deployed Application, click on the link given below : Concrete Compressive Strength Predictor Web App - https://concretecompressivestrength22.herokuapp.com/
 
+![](ezgif-3-aa22f7214f.gif)
 
 # Technical Aspect
 This Project is mainly divided into two parts:
