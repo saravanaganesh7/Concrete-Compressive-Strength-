@@ -65,7 +65,7 @@ typing_extensions==4.3.0
 unicorn==1.0.3
 urllib3==1.26.8
 scikit-learn
-sklearn = 1.0.2
+sklearn ==1.0.2
 threadpoolctl
 webencodings
 Werkzeug
